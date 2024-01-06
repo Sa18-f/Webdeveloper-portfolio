@@ -1,32 +1,11 @@
 body{
-    font-family:  'Open Sans', sans-serif;
-}
-.text-primary{
-    color: #FD6E0A;
+    font-family: 'Open Sans', sans-serif;
 }
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 200px;
-}
-.nav-title{
-    color: #181818;
-    font-size: 45px;
-    font-weight: 800;
-}
-.btn-primary{
-    border-radius: 5px;
-    background: #FD6E0A;
-    color: white;
-    font-size: 20px;
-    font-weight: 700;
-    border: 0;
-    padding: 20px 35px;
-}
-nav > ul{
-    display: flex;
-    align-items: center;
+    margin: 0px 200px;
 }
 nav li{
     list-style: none;
@@ -35,4 +14,36 @@ nav li{
 nav a{
     text-decoration: none;
     color: #474747;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+.onu{
+    font-size: 45px;
+    font-weight: 800;
+    color: #181818;
+}
+.text-primary{
+    color: #FD6E0A;
+}
+.btn-primary{
+    background-color: #FD6E0A;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 5px;
+    color: white;
+    border: 0;
+    padding: 15px 35px;
+}
+.header{
+    background-color: #FFF8F3;
+}
+.banner{
+    align-items: center;
+    display: flex;
+    padding: 30px 30px 30px 200px;
+}
+.banner .profile-pic{
+    width: 500px;
 }
