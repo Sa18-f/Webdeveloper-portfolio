@@ -81,7 +81,18 @@ nav a{
     text-align: center;
 }
 .section-description{
-    font-size: 20px;
+    font-size: 18px;
     color: #474747;
+    text-align: center;
+}
+main{
+    max-width: 1140px;
+    margin: 0px auto;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
     text-align: center;
 }

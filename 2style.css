@@ -38,12 +38,54 @@ nav ul{
 }
 .header{
     background-color: #FFF8F3;
+    background-image: url(portfolio-resources-main/images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 .banner{
     align-items: center;
     display: flex;
-    padding: 30px 30px 30px 200px;
+    padding: 30px 30px 0px 200px;
+    justify-content: space-between;
 }
 .banner .profile-pic{
     width: 500px;
+}
+.banner-greeting{
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0px;
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: 700;
+    color: #181818;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.banner-content{
+    max-width: 500px;
+}
+.about{
+    padding: 130px;
+    margin: 130px 0;
+    background-color: #FFF8F3;
+    border-radius: 10px;
+}
+.about-title{
+    font-size: 65px;
+    font-weight: 700;
+    text-align: center;
+    color: #181818;
+}
+.about-description{
+    font-size: 18px;
+    text-align: center;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
 }
